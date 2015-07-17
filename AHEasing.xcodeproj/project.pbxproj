@@ -36,6 +36,7 @@
 		804527CE16A66C10001DB532 /* PlaygroundNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804527CD16A66C10001DB532 /* PlaygroundNSViewController.m */; };
 		804527D316A66FBD001DB532 /* EasingFunctionGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804527D216A66FBD001DB532 /* EasingFunctionGraphView.m */; };
 		804527D416A67C89001DB532 /* EasingFunctionGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804527D216A66FBD001DB532 /* EasingFunctionGraphView.m */; };
+		C43C3F671B591FEB001537FE /* CAKeyframeAnimation+AHEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C3F661B591FEB001537FE /* CAKeyframeAnimation+AHEasing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		806EB7F3138F91A700E2D4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		806EB828138F91C700E2D4A7 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
 		806EB829138F91C700E2D4A7 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		C43C3F661B591FEB001537FE /* CAKeyframeAnimation+AHEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAKeyframeAnimation+AHEasing.swift"; path = "Swift Helper/CAKeyframeAnimation+AHEasing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		806EB7E0138F91A700E2D4A7 = {
 			isa = PBXGroup;
 			children = (
+				C43C3F631B591F39001537FE /* Swift Helper */,
 				80521A83139826A8007386E6 /* AHEasing */,
 				804527CF16A66F10001DB532 /* EasingPlayground-Common */,
 				8045277916A63161001DB532 /* EasingPlayground-iOS */,
@@ -217,6 +220,14 @@
 				804527B616A6351A001DB532 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C43C3F631B591F39001537FE /* Swift Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C43C3F661B591FEB001537FE /* CAKeyframeAnimation+AHEasing.swift */,
+			);
+			name = "Swift Helper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				804527D416A67C89001DB532 /* EasingFunctionGraphView.m in Sources */,
+				C43C3F671B591FEB001537FE /* CAKeyframeAnimation+AHEasing.swift in Sources */,
 				804527B216A634DD001DB532 /* CAKeyframeAnimation+AHEasing.m in Sources */,
 				804527B316A634DD001DB532 /* easing.c in Sources */,
 				8045278016A63161001DB532 /* main.m in Sources */,
